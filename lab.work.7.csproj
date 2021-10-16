@@ -47,7 +47,6 @@
     <Compile Include="Commander.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="Loader.cs" />
-    <Compile Include="New.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
