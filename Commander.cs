@@ -9,8 +9,8 @@ namespace lab.work._7
 {
     public class Commander
     {
-        public List<Employee> All { set; get; } = new List<Employee>();
-        public List<Employee> Tomorrow { set; get; } = new List<Employee>();
+        public List<Employee> All = new List<Employee>(); //{ set; get; }
+        public List<Employee> Tomorrow = new List<Employee>(); // { set; get; }
 
         //public Commander()
         //{
@@ -38,8 +38,8 @@ namespace lab.work._7
         {
             foreach (var employee in All)
             {
-                if (employee is Cashier)
-                    Console.WriteLine(employee.GetFullName());
+                if (employee is Cashier a)
+                    Console.WriteLine(a.GetFullName());
             } //пробегается по коллекции и печатает, если кассир
         }
         
